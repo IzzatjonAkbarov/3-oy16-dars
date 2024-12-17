@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  list-style: none;
+}
+ul,
+ol {
+  text-decoration: none;
+}
+img,
+input,
+button {
+  cursor: pointer;
+}
+.container1 {
+  width: 95%;
+  margin: 0 auto;
+}
+@media (min-width: 1500px) {
+  .container1 {
+    width: 1440px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 950px) {
+  .header {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100vh;
+    transition: all 0.4s;
+    background: #5b5729;
+    z-index: 999;
+  }
+  #check:checked ~ .header {
+    right: 0;
+  }
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper1 {
+  background-image: url(../src/assets/img/iphone.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+.multi-line {
+  display: -webkit-box; /* Enable multi-line truncation */
+  -webkit-line-clamp: 2; /* Limit to 2 lines */
+  -webkit-box-orient: vertical; /* Vertical text alignment */
+  overflow: hidden; /* Hide overflowing text */
+  text-overflow: ellipsis; /* Add ellipsis */
+}
+@media (max-width: 500px) {
+  .swiper1 {
+    background-image: none;
+  }
+}
+.smth {
+  background: linear-gradient(82deg, #5f6308 0%, #302f02 100%);
+}
