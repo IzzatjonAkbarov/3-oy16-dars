@@ -1,0 +1,36 @@
+set weakset map weakmap
+
+
+
+set takrorlanmaydigan qiymatlar saqlaydigan toplam qiymatlar primitve datatype yoki object bolishi mumkin qiymat takrorlanmaydi add delete has metodlari bor malumot tartibsiz saqlanadi
+weakset da garbage collector bor has va size yoq itteration bolmaydi va takroriy element saqlamaydi
+map key va value oz ichiga oladigan toplam keyozgarmas boladi set get has delete bor itteration boladi map or forof yordamida
+weakmap bunda qiymatlar faqat objectlar boladi garbage collector bor iteratsiya bolmaydi
+
+
+
+set ==================
+add
+delete 
+clear
+has
+size
+weakset===============
+add
+ delete
+has
+map=========
+get 
+set 
+keys
+values
+entries
+size
+has 
+clear 
+delete
+weakmap============
+set 
+get
+has
+delete
