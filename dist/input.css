@@ -87,3 +87,25 @@ button {
 .smth {
   background: linear-gradient(82deg, #5f6308 0%, #302f02 100%);
 }
+.aside {
+  position: sticky;
+  top: 0;
+  height: 90vh;
+  overflow-y: scroll;
+  background-color: #fff;
+  left: 0;
+  width: 270px;
+}
+@media (max-width: 958px) {
+  .aside {
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    right: -100%;
+    transition: all 0.4s;
+    display: none;
+  }
+  #uncheck:checked ~ .aside {
+    right: 0;
+  }
+}
