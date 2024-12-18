@@ -33,4 +33,40 @@ weakmap============
 set 
 get
 has
-delete
+delete\
+
+
+
+
+
+
+
+
+
+
+
+
+dom document object module bu sahiani tuzulishi tarkilbi va uslublarini uzgartiruvchi dasturlash interfeysi
+
+u html yuklanganda daraxtsimon shaklda tasvirlydi
+elementlarni tanlash
+getelement by id ->id orqlai aniqlash 
+getelement byclassname clas orqali aniqlash
+getElementsByTagName tagnomi boyicha aniqqlash uchun ishlatiladi
+queryslelector birinchi uchragan elentni olish uchn 
+query selctor all berilgan nomdagi barchasini oladi
+text.content orqali textlar uzgartiriladi
+inner html orqali teglar qoshilishiham mumkin
+createElement->yangi element yaratadi
+smth.style.color ='red' kabi sytleni uzgartirish ham mumkin
+claslar boshqarish classlist yordamida
+4ta xossasi bor add remove toggle contains
+getAttribute element atribute qiymatini olish imkonini beradi
+setAttribute elementga yangi atribute qoshadi 
+parentElement ota element ni korsatadi
+
+children bolasini chiqarib beradi textni emas
+previousElementSibling odingisini comment va textlarsiz olib beradi
+previousSibling oldigisi nma bulsa shuni olib beradi text va comment bolsaham
+nextElementSibling keyingi elementni olib beradi comment va textlarsiz
+nextSibling keyingi sibling nma bulsa shuni olib beradi text va comment bolsaham
