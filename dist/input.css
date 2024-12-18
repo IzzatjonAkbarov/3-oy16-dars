@@ -112,3 +112,7 @@ button {
     right: 0;
   }
 }
+#uncheck:checked ~ .boshqa .barside {
+  position: fixed;
+  left: 0;
+}
