@@ -70,3 +70,70 @@ previousElementSibling odingisini comment va textlarsiz olib beradi
 previousSibling oldigisi nma bulsa shuni olib beradi text va comment bolsaham
 nextElementSibling keyingi elementni olib beradi comment va textlarsiz
 nextSibling keyingi sibling nma bulsa shuni olib beradi text va comment bolsaham
+
+
+
+
+
+
+
+
+
+
+
+
+dom 2-qism
+
+ Create Element
+
+yangi element yaratadi
+
+ Append
+
+yangi element qoshadi 
+appendchild ()faqat bitta element qoshadi
+
+ Prepend
+elementlarni oldidan qoshadi unshiftga oxshab
+
+
+ Remove Element
+
+elementni ochirib tahshlaydi
+removeattribute selector berilsa uni atributelarini ochirib tahshlaydi
+
+ Event
+ hodisa masalan bosilishi yoki hover bolishi 
+
+
+
+
+ Inline event handler
+evntni tag ichiga Attribute qilib berib unga funksiya biriktirish
+
+
+Inline event properties
+
+attribute ni ozgaruvchiga tenglab unga eventname orqali funksiya beriladi
+
+
+ Event Listeners
+
+bunda attributega addeventlisteners orqali beriladi eventni kutadi va funksiya ishga tushadi
+
+
+ Event target
+
+bu event xususiyati bulib bu event sodir bolgan elementni qaytaradi va uning xususiyatlarini ham
+
+
+ Event bubling
+bu child   bosilganda childdan parentElement gacha hodisaning tasir qilishi scope chainingga oxshab
+
+
+
+ Event captuning
+child bosilgada parentdan childgacha hodisaning tasir qilishi
+
+
+
